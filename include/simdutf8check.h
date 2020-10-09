@@ -5,6 +5,11 @@
 #include <stddef.h>
 #include <stdint.h>
 #include <x86intrin.h>
+
+#ifdef __APPLE__
+#include <string.h>
+#endif
+
 /*
  * legal utf-8 byte sequence
  * http://www.unicode.org/versions/Unicode6.0.0/ch03.pdf - page 94
