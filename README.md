@@ -34,3 +34,9 @@ $ ./utf8validate
 ### Steps
 * Git clone the repository from https://github.com/adamretter/utf8-validator-c.git
 * Build using Make, by running `make` in the cloned directory, you will then find a binary of the compiled application named `utf8validate`.
+
+## Reference
+
+
+- John Keiser, Daniel Lemire, [Validating UTF-8 In Less Than One Instruction Per Byte](https://arxiv.org/abs/2010.03090), Software: Practice & Experience (to appear)
+
