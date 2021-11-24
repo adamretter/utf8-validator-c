@@ -1,13 +1,12 @@
 # UTF8 Validator (C edition)
 
-This is a more basic but faster version of [UTF8 Validator](https://github.com/digital-preservation/utf8-validator). The C edition, uses the [fastvalidate-utf-8](https://github.com/lemire/fastvalidate-utf-8) library from [Daniel Lemire](https://github.com/lemire). The C edition only returns a pass or fail result. It does not provide information about the position at which validation fails or allow to continue validating further after the first error.
+This is a more basic but much faster version of [UTF8 Validator](https://github.com/digital-preservation/utf8-validator). The C edition, uses the [fastvalidate-utf-8](https://github.com/lemire/fastvalidate-utf-8) library from [Daniel Lemire](https://github.com/lemire). The C edition only returns a pass or fail result. It does not provide information about the position at which validation fails or allow to continue validating further after the first error.
 
 A UTF-8 Validation Tool which may be used as a command line tool, if you are looking for a C library to use with your own program see [fastvalidate-utf-8](https://github.com/lemire/fastvalidate-utf-8).
 
 Released under the [Apache 2.0 Licence](https://opensource.org/licenses/Apache-2.0).
 
-[![Build Status](https://travis-ci.org/adametter/utf8-validator-c.png?branch=master)](https://travis-ci.org/adamretter/utf8-validator-c)
-
+[![CI](https://github.com/adamretter/utf8-validator-c/workflows/CI/badge.svg)](https://github.com/adamretter/utf8-validator-c/actions?query=workflow%3ACI)
 
 ## Use from the Command Line
 You can [build from the source code](#building-from-source-code). You can then run `utf8validate` (Linux/Mac/Unix).
